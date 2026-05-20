@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Детска ТВ Викторина</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+<h1>🌟 Детска ТВ Викторина 🌟</h1>
+<div id="categories"></div>
+
+<div id="questionScreen" class="hidden">
+    <h2 id="categoryTitle"></h2>
+    <div id="question"></div>
+    <div id="answers"></div>
+</div>
+
+<div id="videoScreen" class="hidden">
+    <div class="video-card">
+        <h2>🎬 Интересни факти</h2>
+        <div id="facts"></div>
+        <h3 id="correctReveal"></h3>
+        <button onclick="backToMenu()">⬅ Обратно към сферите</button>
+    </div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
